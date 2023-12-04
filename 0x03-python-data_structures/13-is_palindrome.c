@@ -66,4 +66,5 @@ listint_t *reverse_listint(listint_t **head)
 
   (*head)->next = prev;
 
-  return
+  return (*head);
+}
